@@ -1,207 +1,58 @@
+<!-- Global Include -->
+<?php
+//Initiate Global File Call
+require($_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/global.config.php');
+?>
+<!-- End Global Include -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
 <head>
 
-    <!--=========================*
-                Met Data
-    *===========================-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Zien Portfolio Landing Page">
+  <!--=========================*
+            Meta Section
+  *===========================-->
+  <!-- Include Meta -->
+  <?php
+  //Call Meta Section
+  include 'assets/templates/template-meta.php';
+  ?>
+  <!-- End Include Meta -->
 
-    <!--=========================*
+  <!--=========================*
               Page Title
-    *===========================-->
-    <title>Zien Portfolio Landing Page</title>
+  *===========================-->
+  <title>Home - Landscape Mandap</title>
 
-    <!--=========================*
-                Favicon
-    *===========================-->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  <!--=========================*
+              Page Head
+  *===========================-->
+  <!-- Include Header -->
+  <?php
+  //Call Header Section
+  include 'assets/templates/template-header.php';
+  ?>
+  <!-- End Include Header -->
 
-    <!--=========================*
-            Bootstrap Css
-    *===========================-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!--=========================*
-              Custom CSS
-    *===========================-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <!--=========================*
-               Owl CSS
-    *===========================-->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
-
-    <!--=========================*
-               Fancy Box
-    *===========================-->
-    <link href="css/jquery.fancybox.css" rel="stylesheet"/>
-
-    <!--=========================*
-               Swiper
-    *===========================-->
-    <link rel="stylesheet" href="css/swiper.css">
-
-    <!--=========================*
-              Animate CSS
-    *===========================-->
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-
-    <!--=========================*
-              Toastr CSS
-    *===========================-->
-    <link rel="stylesheet" href="css/toastr.min.css">
-
-    <!--=========================*
-              Slider CSS
-    *===========================-->
-    <link rel="stylesheet" href="css/cb-slider.css">
-
-    <!--=========================*
-            Google Fonts
-    *===========================-->
-
-    <!-- Roboto USE: font-family: 'Roboto', sans-serif;-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <!-- Open Sans USE: font-family: 'Open Sans', sans-serif;-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <!-- Montserrat USE: font-family: 'Montserrat', sans-serif;-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
-          rel="stylesheet">
-
-    <!--=========================*
-            Font Awesome
-    *===========================-->
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-
-    <!--=========================*
-               Ionicons
-    *===========================-->
-    <link href="css/ionicons.min.css" rel="stylesheet"/>
-
-    <!--=========================*
-              EtLine Icons
-    *===========================-->
-    <link href="css/et-line.css" rel="stylesheet"/>
-
-    <!--=========================*
-              YTplayer
-    *===========================-->
-    <link rel="stylesheet" href="css/YTPlayer.css">
-
-    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-<!--
-=================================
-            PRELOADER
-=================================
--->
-
-<div class="loading">
-    <div class="loading-text">
-        <span class="loading-text-words">L</span>
-        <span class="loading-text-words">O</span>
-        <span class="loading-text-words">A</span>
-        <span class="loading-text-words">D</span>
-        <span class="loading-text-words">I</span>
-        <span class="loading-text-words">N</span>
-        <span class="loading-text-words">G</span>
-    </div>
-</div>
-
-<!-- End Preloader -->
-
-<div id="home"></div>
-<!--=========================*
-            Header
-*===========================-->
-<header id="rt_header">
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="navbar-wrapper" id="navigation">
-            <div class="navbar navbar-default navbar-fixed-top reveal-menu-home" role="navigation">
-                <div class="container nav-container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-                                </div>
-                            </div> <!-- .navbar-header -->
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="index.html">Home v1</a></li>
-                                            <li><a href="index2.html">Home v2</a></li>
-                                            <li><a href="index3.html">Home v3</a></li>
-                                            <li><a href="index4.html">Home v4</a></li>
-                                            <li><a href="index5.html">Home v5</a></li>
-                                            <li><a href="index6.html">Home v6</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="about-me.html">About Me</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="portfolio-col-2.html">Portfolio Col 2</a></li>
-                                            <li><a href="portfolio-col-3.html">Portfolio Col 3</a></li>
-                                            <li><a href="portfolio-col-4.html">Portfolio Col 4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="ion-ios-arrow-down"></i></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="blog-listing.html">Blog Design 1</a></li>
-                                            <li><a href="blog-listing2.html">Blog Design 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- .col-md-12 -->
-                    </div> <!-- .row -->
-                </div> <!-- .container -->
-            </div> <!-- .navbar -->
-        </div> <!-- .navbar-wrapper -->
-    </nav>
-    <!-- End Navigation -->
-</header>
-<!--=========================*
-           End Header
-*===========================-->
+  <!--=========================*
+          Page Navigation
+  *===========================-->
+  <!-- Include Navigation -->
+  <?php
+  //Call Navigation Section
+  include 'assets/templates/template-navigation.php';
+  ?>
+  <!-- End Include Navigation -->
 
 <!--=========================*
             Banner
 *===========================-->
-<section id="mt_banner" style="background-image: url(images/home-banner.jpg)">
+<section id="mt_banner" style="background-image: url(https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)">
     <div class="container">
         <div class="row">
             <div class="banner-wrapper">
                 <div class="banner-caption">
-                    <h1 class="wow fadeInUp" data-wow-delay="0.1">DIGITAL CREATIVE<span>AGENCY</span></h1>
-                    <p>We bring ide@s to life</p>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.1">IMAGINE<span>BEAUTIFUL!</span></h1>
+                    <p>We bring the awesomeness.</p>
                     <a href="#mt_portfolio" class="mt_btn_color banner_down"><i class="ion-ios-arrow-thin-down"></i></a>
                 </div><!--banner-caption-->
             </div><!--banner-wrapper-->
@@ -211,6 +62,93 @@
 <!--=========================*
             End	Banner
 *===========================-->
+
+<section id="mt_banner_slider" style="background: url(https://via.placeholder.com/1600x1080); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; margin-top: 50px;">
+    <div class="swiper-container swiper-container-horizontal" style="cursor: grab;">
+        <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-2880px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg4.jpg&quot;); transform: translate3d(1440px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2 style="color: #fff;">Fashion Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg2.jpg&quot;); transform: translate3d(720px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <!-- <div class="overlay"></div> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2 style="color: #fff;">Creative Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg1.jpg&quot;); transform: translate3d(0px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2>Web Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg3.jpg&quot;); transform: translate3d(-720px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2 style="color: #fff;">3d Art Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-slide-index="3" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg4.jpg&quot;); transform: translate3d(-1440px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2 style="color: #fff;">Fashion Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1440px; transition: all 0ms ease 0s;">
+                <div class="slide-inner" style="background-image: url(&quot;assets/images/slider/bg2.jpg&quot;); transform: translate3d(-2160px, 0px, 0px); transition: all 0ms ease 0s;"></div>
+                <!-- <div class="overlay"></div> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_caption_text">
+                                <h2 style="color: #fff;">Creative Design</h2>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+</section>
 
 <!--=========================*
           Portfolio
@@ -243,10 +181,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdesign grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw1.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw1.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw1.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw1.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -254,10 +192,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdevelopment grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw2.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw2.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw2.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw2.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -265,10 +203,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdesign grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw3.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw3.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw3.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw3.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -276,10 +214,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector marketing grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw4.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw4.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw4.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw4.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -287,10 +225,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdesign grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw5.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw5.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw5.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw5.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -298,10 +236,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdesign grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw6.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw6.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw6.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw6.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -309,10 +247,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdevelopment grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw7.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw7.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw7.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw7.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -320,10 +258,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector webdevelopment grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw8.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw8.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw8.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw8.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -331,10 +269,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector marketing grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw9.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw9.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw9.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw9.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -342,10 +280,10 @@
                 <!-- Portfolio Item -->
                 <div class="portfolio_grid no-padding isotopeSelector marketing grid-item">
                     <figure class="portfolio_hover">
-                        <img src="images/portfolio/bw10.jpg" alt="image" class="img-responsive center-block"/>
+                        <img src="assets/images/portfolio/bw10.jpg" alt="image" class="img-responsive center-block"/>
                         <figcaption>
                             <a href="#" class="detail_portfolio"><h3>Portfolio Item</h3></a>
-                            <a href="images/portfolio/bw10.jpg" class="fancybox open_img"><h5><i
+                            <a href="assets/images/portfolio/bw10.jpg" class="fancybox open_img"><h5><i
                                     class="ion-ios-plus-empty"></i></h5></a>
                         </figcaption>
                     </figure>
@@ -375,66 +313,72 @@
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-layers"></i>
+                        <i class="icon-wine"></i>
                     </div>
-                    <h3>Web Design</h3>
+                    <h3>Venue</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
             <!-- Service 2 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-circle-compass"></i>
+                        <i class="icon-megaphone"></i>
                     </div>
-                    <h3>Web Development</h3>
+                    <h3>DJ & Band</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
             <!-- Service 3 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-mobile"></i>
+                        <i class="icon-ribbon"></i>
                     </div>
-                    <h3>Mobile Development</h3>
+                    <h3>Decorator</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
             <!-- Service 4 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-genius"></i>
+                        <i class="icon-hourglass"></i>
                     </div>
-                    <h3>UI/UX Design</h3>
+                    <h3>Catering</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
             <!-- Service 5 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-focus"></i>
+                        <i class="icon-profile-female"></i>
                     </div>
-                    <h3>3d Modeling</h3>
+                    <h3>Makeup & Mehndi</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
             <!-- Service 6 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box text-center">
                     <div class="icon">
-                        <i class="icon-adjustments"></i>
+                        <i class="icon-aperture"></i>
                     </div>
-                    <h3>CRM Development</h3>
+                    <h3>Video & Photo</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatipn.</p>
+                        <a href="#" class="mt_btn_color">View Service</a>
                 </div>
             </div>
         </div>
@@ -462,7 +406,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member1.jpg" alt="Team Member">
+                            <img src="assets/images/team/member1.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>JHON DOE</h3>
                                 <span>CEO/Founder</span>
@@ -481,7 +425,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member2.jpg" alt="Team Member">
+                            <img src="assets/images/team/member2.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>Monica</h3>
                                 <span>Creative Lead</span>
@@ -500,7 +444,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member3.jpg" alt="Team Member">
+                            <img src="assets/images/team/member3.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>David Walsh</h3>
                                 <span>UI/UX Designer</span>
@@ -519,7 +463,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member4.jpg" alt="Team Member">
+                            <img src="assets/images/team/member4.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>Jason Roy</h3>
                                 <span>Graphic Designer</span>
@@ -538,7 +482,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member5.jpg" alt="Team Member">
+                            <img src="assets/images/team/member5.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>Jessica Stone</h3>
                                 <span>Ios Developer</span>
@@ -557,7 +501,7 @@
                 <div class="item">
                     <div class="col-md-12">
                         <div class="team_member">
-                            <img src="images/team/member6.jpg" alt="Team Member">
+                            <img src="assets/images/team/member6.jpg" alt="Team Member">
                             <div class="member_name">
                                 <h3>Rebecca</h3>
                                 <span>Marketing Lead</span>
@@ -640,93 +584,24 @@
 *===========================-->
 
 <!--=========================*
-           News letter
+            Page Footer
 *===========================-->
-<section id="mt_newsletter">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="started_heading text-center">
-                    <h1>Newsletter</h1>
-                    <p>Register now with our newsletter and get latest updates available.</p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="newsletter_form">
-                    <form action="">
-                        <input type="email">
-                        <button type="submit" class="mt_btn_color">Send</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--=========================*
-         End News letter
-*===========================-->
-
-
-<!--=========================*
-    Footer
-*===========================-->
-<footer id="mt_footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="copyright text-left">
-                    <p>&copy; Zien. 2018 All Rights Reserved </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="social_icons pull-right">
-                    <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                    <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--=========================*
-           End Footer
-*===========================-->
-
-
-<!--=========================*
-            Scripts
-*===========================-->
-
-<!-- Jquery Js -->
-<script src="js/jquery-2.1.1.min.js"></script>
-<!-- Bootstrap Js -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Typed Js -->
-<script src="js/typed.js"></script>
-<!-- YT Player Js -->
-<script src="js/jquery.mb.YTPlayer.js"></script>
-<!-- WOW Js -->
-<script src="js/wow.min.js"></script>
-<!-- Swiper Slider Js -->
-<script src="js/swiper.js"></script>
-<!-- Masonary Grid -->
-<script src="js/masonry.pkgd.min.js"></script>
-<!-- Navigation scroll Js -->
-<script src="js/jquery.nav.js"></script>
-<!-- Owl Carousel Js -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- Easing Js -->
-<script src="js/jquery.easing.min.js"></script>
-<!-- Toastr Js -->
-<script src="js/toastr.min.js"></script>
-<!-- Fancy Box Js -->
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/waypoint.js"></script>
-<script src="js/isotope.min.js"></script>
-<!-- Main Js -->
-<script src="js/main.js"></script>
+<!-- Include Footer -->
+<?php
+//Call Footer Section
+include 'assets/templates/template-footer.php';
+?>
+<!-- End Include Footer -->
 
 </body>
 </html>
+
+<!--=========================*
+            Page Scripts
+*===========================-->
+<!-- Include Scripts -->
+<?php
+//Call Scripts Section
+include 'assets/templates/template-scripts.php';
+?>
+<!-- End Include Scripts -->
