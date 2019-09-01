@@ -42,7 +42,7 @@ Footer
           <a href="#" data-toggle="tooltip" title="Find us on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
           <a href="#" data-toggle="tooltip" title="Follow us on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://api.whatsapp.com/m?=" data-toggle="tooltip" title="Ping us on WhatsApp" target="_blank"><i class="fa fa-whatsapp"></i></a>
-          <a href="#" data-toggle="tooltip" title="Locate us on Google Maps" target="_blank"><i class="fa-map-marker"></i></a>
+          <a href="#" data-toggle="tooltip" title="Locate us on Google Maps" target="_blank"><i class="fa fa-map-marker"></i></a>
           <a href="mailto:info@landscape.com" data-toggle="tooltip" title="Drops us an email" target="_blank"><i class="fa fa-envelope"></i></a>
           <a href="tel:+919853233951" data-toggle="tooltip" title="Give us a Call" target="_blank"><i class="fa fa-phone"></i></a>
           <!-- <a href="#" title="Behance" data-toggle="tooltip" target="_blank"><i class="fa fa-behance"></i></a>
