@@ -43,7 +43,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
           </div>
         </div>
       </li>
-      <li style="background-image: url(http://www.crismatec.com/python/de/awesome-wedding-hall-decorations-pictures-decorating-ideas_home-elements-and-style.jpg);" class="overlay">
+      <li style="background-image: url(assets/images/Landscape-Hall.jpeg);" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -81,7 +81,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/color/80/000000/park-concert-shell.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/color/80/000000/park-concert-shell.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Venue</h3>
@@ -93,7 +93,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/nolan/80/000000/video-conference.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/nolan/80/000000/video-conference.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Video & Photo</h3>
@@ -105,7 +105,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/color/80/000000/bride.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/color/80/000000/bride.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Make-up & Mehendi</h3>
@@ -117,7 +117,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/dusk/80/000000/dj.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/dusk/80/000000/dj.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>DJ & Band</h3>
@@ -129,7 +129,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/plasticine/80/000000/christmas-tree.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/plasticine/80/000000/christmas-tree.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Decoration</h3>
@@ -141,7 +141,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/color/80/000000/tableware.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/color/80/000000/tableware.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Catering</h3>
@@ -166,7 +166,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/cotton/80/000000/engagement-ring--v2.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/cotton/80/000000/engagement-ring--v2.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Weddings</h3>
@@ -178,7 +178,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/dusk/80/000000/prize.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/dusk/80/000000/prize.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Gala & Awards</h3>
@@ -190,7 +190,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/color/80/000000/meeting-room.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/color/80/000000/meeting-room.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Corporate Meetings</h3>
@@ -204,7 +204,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/dusk/80/000000/event-accepted-tentatively.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/dusk/80/000000/event-accepted-tentatively.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Special Events</h3>
@@ -216,7 +216,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/dusk/80/000000/new-product.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/dusk/80/000000/new-product.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Product Launches</h3>
@@ -228,7 +228,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/officel/80/000000/video-conference.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/officel/80/000000/video-conference.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Conferences & Webinars</h3>
@@ -240,7 +240,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <img src="https://img.icons8.com/dusk/80/000000/museum.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+              <img src="https://img.icons8.com/dusk/80/000000/museum.png" class="svg" alt="Landscape Ventures">
             </div>
             <div class="text">
               <h3>Government Events</h3>
@@ -265,46 +265,46 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
         <div class="col-md-6">
           <div class="probootstrap-block-image-text">
             <figure>
-              <a href="assets/images/img_1.jpg" class="image-popup">
-                <img src="assets/images/img_1.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
+              <a href="assets/images/Landscape-Main-View.jpeg" class="image-popup">
+                <img src="assets/images/Landscape-Main-View.jpeg" alt="Landscape Ventures" class="img-responsive">
               </a>
-              <div class="actions">
+              <!-- <div class="actions">
                 <a href="https://vimeo.com/45830194" class="popup-vimeo"><i class="icon-play2"></i></a>
-              </div>
+              </div> -->
             </figure>
             <div class="text">
-              <h3><a href="#">Grand Deluxe Room</a></h3>
+              <h3><a href="#">Grand Banquet Hall</a></h3>
               <div class="post-meta">
                 <ul>
                   <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                  <li><i class="icon-user2"></i> 3 Guests</li>
+                  <li><i class="icon-user2"></i> 50 Guests</li>
                 </ul>
               </div>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p><a href="#" class="btn btn-primary">Book now from $109</a></p>
+              <p>Book the best venue in town</p>
+              <p><a href="#" class="btn btn-primary">Book now </a></p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="probootstrap-block-image-text">
             <figure>
-              <a href="assets/images/img_2.jpg" class="image-popup">
-                <img src="assets/images/img_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
+              <a href="assets/images/Landscape-Side.jpeg" class="image-popup">
+                <img src="assets/images/Landscape-Side.jpeg" alt="Landscape Ventures" class="img-responsive">
               </a>
-              <div class="actions">
+              <!-- <div class="actions">
                 <a href="https://vimeo.com/45830194" class="popup-vimeo"><i class="icon-play2"></i></a>
-              </div>
+              </div> -->
             </figure>
             <div class="text">
-              <h3><a href="#">Ultra Superior Room</a></h3>
+              <h3><a href="#">Awful Environment</a></h3>
               <div class="post-meta">
                 <ul>
                   <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                  <li><i class="icon-user2"></i> 3 Guests</li>
+                  <li><i class="icon-user2"></i> 100 Guests</li>
                 </ul>
               </div>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p><a href="#" class="btn btn-primary">Book now from $109</a></p>
+              <p>Book the best venue in town</p>
+              <p><a href="#" class="btn btn-primary">Book now</a></p>
             </div>
           </div>
         </div>
@@ -327,14 +327,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
           <div class="owl-carousel owl-carousel-carousel">
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Classic Room</h3>
-                  <p>Starting from <strong>$29.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -342,14 +342,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Grand Deluxe Room</h3>
-                  <p>Starting from <strong>$32.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -357,14 +357,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Ultra Superior Room</h3>
-                  <p>Starting from <strong>$42.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -372,14 +372,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Classic Room</h3>
-                  <p>Starting from <strong>$29.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -387,14 +387,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Grand Deluxe Room</h3>
-                  <p>Starting from <strong>$32.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -402,14 +402,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Ultra Superior Room</h3>
-                  <p>Starting from <strong>$42.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
@@ -417,19 +417,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/landscape-mandap-website/assets/config/globa
             </div>
             <div class="item">
               <div class="probootstrap-room">
-                <a href="#"><img src="assets/images/img_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive image-popup"></a>
+                <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
                 <div class="text">
-                  <h3>Ultra Superior Room</h3>
-                  <p>Starting from <strong>$42.00/Night</strong></p>
+                  <h3>Classic Venue</h3>
+                  <p>Starting from <strong>₹2900.00/Night</strong></p>
                   <div class="post-meta">
                     <ul>
                       <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-                      <li><i class="icon-user2"></i> 3 Guests</li>
+                      <li><i class="icon-user2"></i> 100 Guests</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

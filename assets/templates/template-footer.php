@@ -11,7 +11,7 @@ Footer
           <p><a href="#" class="link-with-icon">Know More About Us<i class=" icon-chevron-right"></i></a></p>
         </div>
       </div>
-      <div class="col-md-4">
+      <!-- <div class="col-md-4">
         <div class="probootstrap-footer-widget">
           <h3>Blog</h3>
           <ul class="probootstrap-blog-list">
@@ -47,7 +47,7 @@ Footer
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <div class="col-md-4">
         <div class="probootstrap-footer-widget">
           <h3>Contact</h3>
