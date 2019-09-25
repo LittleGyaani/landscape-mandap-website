@@ -21,7 +21,7 @@ header("Access-Control-Allow-Origin: *");
 date_default_timezone_set('Asia/Kolkata');
 
 //Define Base URL to be used globally
-$baseURI = "https://localhost/landscape-mandap-website/";
+$baseURI = "https://localhost/landscape-mandap-website";
 
 
 //**Global Declarations**//

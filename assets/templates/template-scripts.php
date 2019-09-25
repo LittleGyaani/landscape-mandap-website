@@ -4,32 +4,11 @@ Scripts
 *===========================-->
 
 <!-- Jquery Js -->
-<script src="<?= $baseURI; ?>/assets/js/jquery-2.1.1.min.js"></script>
-<!-- Bootstrap Js -->
-<script src="<?= $baseURI; ?>/assets/js/bootstrap.min.js"></script>
-<!-- Typed Js -->
-<script src="<?= $baseURI; ?>/assets/js/typed.js"></script>
-<!-- YT Player Js -->
-<script src="<?= $baseURI; ?>/assets/js/jquery.mb.YTPlayer.js"></script>
-<!-- WOW Js -->
-<script src="<?= $baseURI; ?>/assets/js/wow.min.js"></script>
-<!-- Swiper Slider Js -->
-<script src="<?= $baseURI; ?>/assets/js/swiper.js"></script>
-<!-- Masonary Grid -->
-<script src="<?= $baseURI; ?>/assets/js/masonry.pkgd.min.js"></script>
-<!-- Navigation scroll Js -->
-<script src="<?= $baseURI; ?>/assets/js/jquery.nav.js"></script>
-<!-- Owl Carousel Js -->
-<script src="<?= $baseURI; ?>/assets/js/owl.carousel.min.js"></script>
-<!-- Easing Js -->
-<script src="<?= $baseURI; ?>/assets/js/jquery.easing.min.js"></script>
-<!-- Toastr Js -->
-<script src="<?= $baseURI; ?>/assets/js/toastr.min.js"></script>
-<!-- Datepickk Js -->
-<script src="<?= $baseURI; ?>/assets/js/datepickk.min.js"></script>
-<!-- Fancy Box Js -->
-<script src="<?= $baseURI; ?>/assets/js/jquery.fancybox.pack.js"></script>
-<script src="<?= $baseURI; ?>/assets/js/waypoint.js"></script>
-<script src="<?= $baseURI; ?>/assets/js/isotope.min.js"></script>
+<script src="<?= $baseURI; ?>/assets/js/scripts.min.js" type="text/javascript"></script>
 <!-- Main Js -->
-<script src="<?= $baseURI; ?>/assets/js/main.js"></script>
+<script src="<?= $baseURI; ?>/assets/js/main.min.js" type="text/javascript"></script>
+<!-- Custom Js -->
+<script src="<?= $baseURI; ?>/assets/js/custom.js" type="text/javascript"></script>
+<!-- Extra Js -->
+<!-- <script data-cfasync="false" src="https://cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+<!-- <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="9a04b72165ab4a73bc41a1e4-|49" defer=""></script> -->
