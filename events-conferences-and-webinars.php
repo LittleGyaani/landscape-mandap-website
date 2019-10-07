@@ -7,7 +7,7 @@ require __DIR__.'/assets/config/global.config.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Landscape Mandap - Luxury of your Event | Gala and Award Events</title>
+  <title>Landscape Mandap - Luxury of your Event | Conference & Webinar Events</title>
   <?php
   //Include Meta Section
   include 'assets/templates/template-meta.php';
@@ -31,14 +31,14 @@ require __DIR__.'/assets/config/global.config.php';
     ?>
     <section class="probootstrap-slider flexslider probootstrap-inner">
       <ul class="slides">
-        <li style="background-image: url(assets/images/events_landing.jpg);" class="overlay">
+        <li style="background-image: url(assets/images/events-conference-and-webinar.jpg);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
                   <p><img src="assets/images/curve_white.svg" class="seperator probootstrap-animate" alt="Landscape Ventures"></p>
-                  <h1 class="probootstrap-heading probootstrap-animate">Events Organized by Landscape</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">360-degree wedding planning and execution.</div>
+                  <h1 class="probootstrap-heading probootstrap-animate">Conference and Webinar Events</h1>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">Plans every aspect of conferences - marketing, organisation and administration.</div>
                 </div>
               </div>
             </div>
@@ -56,91 +56,149 @@ require __DIR__.'/assets/config/global.config.php';
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <p>Services for a wedding that will not only memorize by you but by your guest too. With our Wedding Event Management Services, we cater all the needs of clients coming from across different pockets of the country.</p>
-        </div>
-        <div class="col-md-6">
-          <p>We innovate your wedding in staging enchanting design in different segments like venue decoration, stage decoration, pathway, mandap decoration, buffet stall, light decoration, flower decoration, fibre decoration and other decorative designs as chosen by our esteemed clients. All these decorative blends are beautifully touched by our designers.</p>
-        </div>
-        <div class="col-md-6">
-          <p>Today, we are counted as a reliable Wedding Event Management Planner in Eastern India.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="probootstrap-section probootstrap-section-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="mt0">Why Choose Us?</h2>
-          <p class="mb50"><img src="assets/images/curve.svg" class="svg" alt="Landscape Ventures"></p>
-        </div>
         <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
-            <div class="icon">
-              <i class="icon-check"></i>
-            </div>
-            <div class="text">
-              <h3>Creative event organizers</h3>
-              <p>Currently stands amongst the top service providing companies in the state, known for its innovation and creating industry benchmarks, Landscape Ventures has a bunch of goodwill to its credit.</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
-            </div>
+          <p>
+            <img src="assets/images/events-conferences-and-webinars-1.jpg"  height="300" width="350"/>
+          </div>
+          <div class="col-md-8">
+            <h3>A great conference, convention, or trade show doesn't just happen. It takes good management. We expertise is the worldwide organisation of conferences and events with a great affinity to detail planning, budget transparency and a well-structured action plan.</h3>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
-            <div class="icon">
-              <i class="icon-check"></i>
-            </div>
-            <div class="text">
-              <h3>Professional & Team Qualified</h3>
-              <p>Our team of qualified professionals brimming with zeal to make an event of yours an extravagant affair to remember for an entire era. We put enchantment for all the services we provide to our clients as we have an uncanny ability to convert ideas to things, and eventually a reality, which is the backbone to success!</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
-            <div class="icon">
-              <i class="icon-check"></i>
-            </div>
-            <div class="text">
-              <h3>Entertainment Solution Providers</h3>
-              <p>We are a complete entertainment solution provider and an Event Planner for all your event needs. No matter what size your event may be, we will organize your complete event down to every last-minute detail.</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="probootstrap-half">
-    <div class="image" style="background-image: url(assets/images/slider_2.jpg);"></div>
-    <div class="text">
-      <div class="probootstrap-animate fadeInUp probootstrap-animated">
-        <h2 class="mt0">Best 5 Star hotel</h2>
-        <p><img src="assets/images/curve_white.svg" class="seperator" alt="Landscape Ventures"></p>
         <div class="row">
-          <div class="col-md-6">
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <div class="col-md-4" style="float:right;">
+            <br />
+            <p>
+              <img src="assets/images/events-conferences-and-webinars-2.jpg"  height="300" width="350"/>
+            </div>
+            <br />
+            <br />
+            <div class="col-md-8">
+              <h3>Our aim is to focus on quality and the delivery of the best of assistance to delegates, clients and all parties involved in the organisation of a conference.</h3>
+            </div>
           </div>
-          <div class="col-md-6">
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <p>
+                <img src="assets/images/events-conferences-and-webinars-3.png"  height="300" width="350"/>
+              </div>
+              <br />
+              <br />
+              <div class="col-md-8">
+                <h3>We take care of all these tasks, pooling from our extensive experience and specialised staff. Bringing synergy and competence together to make your event the best it can be.</h3>
+              </div>
+            </div>
           </div>
-        </div>
-        <p><a href="#" class="link-with-icon white">Learn More <i class=" icon-chevron-right"></i></a></p>
-      </div>
-    </div>
-  </section>
-  <?php
-  //Include Footer Section
-  include 'assets/templates/template-footer.php';
-  ?>
+        </section>
 
-  <?php
-  //Include Scrits Section
-  include 'assets/templates/template-scripts.php';
-  ?>
-</body>
-</html>
+        <section class="probootstrap-section">
+          <div class="container">
+            <div class="row mb30">
+              <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center probootstrap-animate">
+                <h2>Explore our Services</h2>
+                <p class="lead">Your desire is our passion, and our passion is our work. We as a established venture and with lots of experience ready to create the best memorable event of your life.</p>
+                <p><img src="assets/images/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/color/80/000000/park-concert-shell.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>Venue</h3>
+                    <p>As the preferred space for high profile weddings, social fetes, conventions and corporate celebrations, this one-of-a-kind event venue has played on several occasions.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/nolan/80/000000/video-conference.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>Video & Photo</h3>
+                    <p>Specializing in creating Video & Photo masterpieces. We really listen to our client's needs and work with you the entire step of the way to ensure the best output.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/color/80/000000/bride.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>Make-up & Mehendi</h3>
+                    <p>We understand each wedding is different and accordingly plan the bride’s overall appearance. Look like a star at your wedding with the exclusive make-up and mehndi.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/dusk/80/000000/dj.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>DJ & Band</h3>
+                    <p>We offer premium and professional wedding DJ services. No matter what your music style is, we'll find the right DJ & Band to stay in sync with your favourite tunes.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/plasticine/80/000000/christmas-tree.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>Decoration</h3>
+                    <p>Life is all about the little fleeting moments. With our decoration services, you can create some everlasting memories that you and your loved ones will remember forever.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                  <div class="icon">
+                    <img src="https://img.icons8.com/color/80/000000/tableware.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                  </div>
+                  <div class="text">
+                    <h3>Catering</h3>
+                    <p>With dedicated and handpicked culinary staff, we offer high-quality catering services in Bhubaneswar. We strive to provide authentic food to make the special blend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="probootstrap-half">
+          <div class="image" style="background-image: url(assets/images/conference-webinar-events-half.jpg);"></div>
+          <div class="text" style="background: #ce754b;!important;">
+            <div class="probootstrap-animate fadeInUp probootstrap-animated">
+              <h2 class="mt0">A Professional To Be Trusted</h2>
+              <p><img src="assets/images/curve_white.svg" class="seperator" alt="Landscape Ventures"></p>
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Whether you’re planning a scientific conference or an annual association meeting, each event is unique and requires a strong foundation to make it a success. To make sure your conference meets your goals, objectives and unique logistical requirements, you need a professional with experience in your field to help strategize and plan all elements of your next event. That’s where <b>Landscape Ventures</b> comes as an expert.</p>
+                </div>
+                <div class="col-md-6">
+                  <p>From creative services to stage management to theme development, the meeting and event planning, we do it all. Our event specialists have experience managing conferences across the globe. We look forward to working with you!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <?php
+        //Include Footer Section
+        include 'assets/templates/template-footer.php';
+        ?>
+
+        <?php
+        //Include Scrits Section
+        include 'assets/templates/template-scripts.php';
+        ?>
+      </body>
+      </html>

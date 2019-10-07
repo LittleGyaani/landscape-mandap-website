@@ -1,7 +1,7 @@
 <!--=========================*
             Favicon
 *===========================-->
-<link rel="shortcut icon" type="image/x-icon" href="assets/images/Landscape-Logo-Designed.png">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/Landscape-meta-icon.png">
 
 <!--=========================*
         Main CSS
@@ -13,6 +13,16 @@
           Custom CSS
 *===========================-->
 <link href="<?= $baseURI; ?>/assets/css/custom.css?v=1.1" rel="stylesheet" type="text/css">
+
+<!--=========================*
+          Light Gallery CSS
+*===========================-->
+<link href="<?= $baseURI; ?>/assets/css/lightgallery.min.css?v=1.1" rel="stylesheet" type="text/css">
+
+<!--=========================*
+          Air Datepicker CSS
+*===========================-->
+<link href="<?= $baseURI; ?>/assets/css/air-datepicker.min.css?v=1.1" rel="stylesheet" type="text/css">
 
 <!--=========================*
         Font Library

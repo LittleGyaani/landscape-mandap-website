@@ -114,20 +114,19 @@ require __DIR__.'/assets/config/global.config.php';
     </section>
 
     <section class="probootstrap-half">
-      <div class="image" style="background-image: url(assets/images/slider_2.jpg);"></div>
-      <div class="text">
+      <div class="image" style="background-image: url(assets/images/about-us-half.jpg);"></div>
+      <div class="text" style="background: #9dbb65 !important;">
         <div class="probootstrap-animate fadeInUp probootstrap-animated">
-          <h2 class="mt0">Best 5 Star hotel</h2>
+          <h2 class="mt0">Making Your Event Into Brand</h2>
           <p><img src="assets/images/curve_white.svg" class="seperator" alt="Landscape Ventures"></p>
           <div class="row">
             <div class="col-md-6">
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <p>Event management has changed dramatically in the last few years, especially as new technologies have emerged. When organising an event, it’s as well to remember that nothing is fixed in stone. Things are in a constant state of flux and can change at the drop of a hat. But <b>Landscape Ventures</b> is very flexible to catch the ball, whether it is high or low. </p>
             </div>
             <div class="col-md-6">
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p>Our process of understanding your objectives and building the event step by step from there helps us provide for any requirement you may have. Our end-to-end event services portfolio is updated constantly to match global standards and deliver fresh and engaging experiences for clients and attendees alike. With the singular belief that entertainment and events have the potential to redefine every industry, we have integrated it into a highly effective brand communication vehicle.</p>
             </div>
           </div>
-          <p><a href="#" class="link-with-icon white">Learn More <i class=" icon-chevron-right"></i></a></p>
         </div>
       </div>
     </section>

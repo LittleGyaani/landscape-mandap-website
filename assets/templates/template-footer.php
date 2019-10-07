@@ -7,7 +7,7 @@ Footer
       <div class="col-md-4">
         <div class="probootstrap-footer-widget">
           <p class="mt0"><img src="assets/images/Landscape-Logo-Designed.png" class="hires" width="250" height="auto" alt="Landscape Ventures"></p>
-          <p>Landscape Banquet Hall is a part of Landscape Creation. Landscape Creation the most active <strong>Entrainment Management Company</strong> in India, we are definitely the most Trendsetters in the Event Industry. Some of the most magnificent, breath-taking and unique event venues in Bhubaneswar. Whether you are looking to host a conference, marriage reception and party hall especially ac banquets we’ve got the venue for you.</p>
+          <p>Landscape Banquet Hall is a part of Landscape Ventures. Landscape Ventures the most active Entrainment Management Company in India, we are definitely the most Trendsetters in the Event Industry. Some of the most magnificent, breath-taking and unique event venues in Bhubaneswar. Whether you are looking to host a conference, marriage reception and party hall especially ac banquets we’ve got the venue for you.</p>
           <p><a href="#" class="link-with-icon">Know More About Us<i class=" icon-chevron-right"></i></a></p>
         </div>
       </div>
@@ -53,7 +53,7 @@ Footer
           <h3>Contact</h3>
           <ul class="probootstrap-contact-info">
             <li><i class="icon-location2"></i> <span>Bhubaneswar, Odisha 751024, India</span></li>
-            <li><i class="icon-mail"></i><span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5acaba3aa85a1aaa8a4acabeba6aaa8">[email&#160;protected]</a></span></li>
+            <li><i class="icon-mail"></i><span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5acaba3aa85a1aaa8a4acabeba6aaa8">landscape@gmail.com</a></span></li>
             <li><i class="icon-phone2"></i><span>+91 999 999 9999</span></li>
           </ul>
         </div>

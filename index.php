@@ -7,7 +7,7 @@ require __DIR__.'/assets/config/global.config.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Landscape Mandap - Luxury of your Event | Home</title>
+  <title>Landscape Ventures - Luxury of your Event | Home</title>
   <?php
   //Include Meta Section
   include 'assets/templates/template-meta.php';
@@ -33,7 +33,7 @@ require __DIR__.'/assets/config/global.config.php';
   <section class="probootstrap-slider probootstrap-animate flexslider">
     <ul class="slides">
 
-      <li style="background-image: url(https://i.ytimg.com/vi/qmhsoY9IIwY/maxresdefault.jpg);display: list-item;" class="overlay">
+      <li style="background-image: url(<?=ImageCompression('https://i.ytimg.com/vi/qmhsoY9IIwY/maxresdefault.jpg');?>); display: list-item;" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -47,7 +47,7 @@ require __DIR__.'/assets/config/global.config.php';
         </div>
       </li>
 
-      <li style="background-image: url(assets/images/Landscape-Hall.jpeg);" class="overlay">
+      <li style="background-image: url(<?=ImageCompression($baseURI.'assets/images/Landscape-Hall.jpeg');?>);" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -61,7 +61,7 @@ require __DIR__.'/assets/config/global.config.php';
         </div>
       </li>
 
-      <li style="background-image: url(assets/images/events/galanights.jpg);" class="overlay">
+      <li style="background-image: url(<?=ImageCompression($baseURI.'assets/images/events/galanights.jpg');?>);" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -74,7 +74,7 @@ require __DIR__.'/assets/config/global.config.php';
           </div>
         </div>
       </li>
-      <li style="background-image: url(assets/images/events/Corporate-Event-6.jpg);" class="overlay">
+      <li style="background-image: url(<?=ImageCompression($baseURI.'assets/images/events/Corporate-Event-6.jpg');?>);" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -87,7 +87,7 @@ require __DIR__.'/assets/config/global.config.php';
           </div>
         </div>
       </li>
-      <li style="background-image: url(assets/images/events/govevents2.jpg);" class="overlay">
+      <li style="background-image: url(<?=ImageCompression($baseURI.'assets/images/events/govevents2.jpg');?>);" class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -107,7 +107,7 @@ require __DIR__.'/assets/config/global.config.php';
       <div class="row">
         <div class="col-md-12">
           <h2 class="probootstrap-cta-heading">Let's make your special occassion even more memorable.<span> &mdash; Beautiful venues, dramatic experince and cinematic feel, live them all together.</span></h2>
-          <div class="probootstrap-cta-button-wrap"><a href="#" class="btn btn-primary">Book Venue now</a></div>
+          <div class="probootstrap-cta-button-wrap"><a href="venue-booking" class="btn btn-primary">Book Venue now</a></div>
         </div>
       </div>
     </div>
@@ -126,17 +126,29 @@ require __DIR__.'/assets/config/global.config.php';
       <div class="row">
         <div class="col-md-4">
           <div class="service probootstrap-animate">
+            <div class="text">
+              <center>
+                <div class="centerTitle">Weddings</div>
+              </center>
+              <div class="textWithBlurredBg">
+                <h3>Weddings</h3>
+                <p>As a wedding planner and decorator service based out of Bhubaneswar which has been planning, managing and executing weddings in a fabulous manner.</p>
+                <img class="imgblur" class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/wedding3.jpg');?>" height="300" width="350" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service probootstrap-animate">
             <!-- <div class="icon">
-            <img src="https://img.icons8.com/cotton/80/000000/engagement-ring--v2.png" class="svg" alt="Landscape Ventures">
+            <img src="https://img.icons8.com/dusk/80/000000/prize.png" class="svg" alt="Landscape Ventures">
           </div> -->
           <div class="text">
-            <center>
-              <div class="centerTitle">Weddings</div>
-            </center>
+            <div class="centerTitle">Gala & Awards</div>
             <div class="textWithBlurredBg">
-              <h3>Weddings</h3>
-              <p>As a wedding planner and decorator service based out of Bhubaneswar which has been planning, managing and executing weddings in a fabulous manner.</p>
-              <img class="imgblur" class="imgblur" src="assets/images/events/wedding 3.jpg" height="300" width="350" />
+              <h3>Gala & Awards</h3>
+              <p>We ensure that you get the best possible Gala and Award event planning services, technical expertise to guarantee the best use of the investment to create the night of the year.</p>
+              <img class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/galanights.jpg');?>" height="300" width="350" />
             </div>
             <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
           </div>
@@ -145,102 +157,58 @@ require __DIR__.'/assets/config/global.config.php';
       <div class="col-md-4">
         <div class="service probootstrap-animate">
           <!-- <div class="icon">
-          <img src="https://img.icons8.com/dusk/80/000000/prize.png" class="svg" alt="Landscape Ventures">
+          <img src="https://img.icons8.com/color/80/000000/meeting-room.png" class="svg" alt="Landscape Ventures">
         </div> -->
         <div class="text">
-          <div class="centerTitle">Gala & Awards</div>
+          <div class="centerTitle">Corporate Events</div>
           <div class="textWithBlurredBg">
-            <h3>Gala & Awards</h3>
-            <p>We ensure that you get the best possible Gala and Award event planning services, technical expertise to guarantee the best use of the investment to create the night of the year.</p>
-            <img class="imgblur" src="assets/images/events/galanights.jpg" height="300" width="350" />
+            <h3>Corporate Events</h3>
+            <p>Corporate events are a cornerstone of doing business and generating results. But where you choose to hold your meeting can make or break your meeting.</p>
+            <img class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/Corporate-Event3.jpg');?>" height="300" width="350" />
           </div>
+          <br />
           <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="service probootstrap-animate">
-        <!-- <div class="icon">
-        <img src="https://img.icons8.com/color/80/000000/meeting-room.png" class="svg" alt="Landscape Ventures">
-      </div> -->
-      <div class="text">
-        <div class="centerTitle">Corporate Events</div>
-        <div class="textWithBlurredBg">
-          <h3>Corporate Events</h3>
-          <p>Corporate events are a cornerstone of doing business and generating results. But where you choose to hold your meeting can make or break your meeting.</p>
-          <img class="imgblur" src="assets/images/events/Corporate-Event 3.jpg" height="300" width="350" />
+        <div class="text">
+          <div class="centerTitle">Product Launches</div>
+          <div class="textWithBlurredBg">
+            <h3>Product Launches</h3>
+            <p>First impressions are enduring. If you are launching any products, you will only get one chance to build a spontaneously powerful connection with your target audience.</p>
+            <img class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/Product-Launch-Event-.jpg');?>" height="300" width="350" />
+          </div>
         </div>
-        <br />
-        <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service probootstrap-animate">
+        <div class="text">
+          <div class="centerTitle">Conferences & Webinars</div>
+          <div class="textWithBlurredBg">
+            <h3>Conferences & Webinars</h3>
+            <p>Successful conferences, forums and webinars need ultra-efficient organisation, perfect administration and study to detail. So the best facility is always preferred.</p>
+            <img class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/conference-.png');?>" height="300" width="350" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service probootstrap-animate">
+        <div class="text">
+          <div class="centerTitle">Government Events</div>
+          <div class="textWithBlurredBg">
+            <h3>Government Events</h3>
+            <p>Landscape Venturess has built an outstanding reputation for successfully planning and achieving complex, large-scale, multi-stakeholder Government conferences and business events.</p>
+            <img class="imgblur" src="<?=ImageCompression($baseURI.'assets/images/events/govevents.jpg');?>" height="300" width="350" />
+          </div>
+          <br />
+        </div>
       </div>
     </div>
   </div>
-  <!--<div class="col-md-4">
-  <!--  <div class="service left-icon probootstrap-animate">
-  <!-- <div class="icon">
-  <!--      <img src="https://img.icons8.com/dusk/80/000000/event-accepted-tentatively.png" class="svg" alt="Landscape Ventures">-->
-  <!--    </div>
-  <!--    <div class="text">
-  <!--      <div class="centerTitle">Special Events</div>
-  <!--      <div class="textWithBlurredBg">
-  <!--          <h3>Special Events</h3>
-  <!--        <p>Overcoming a discerning crowd is never easier. Landscape Venturess has the expertise to plan and stage handling events of all sizes, themes and enticements.</p>-->
-  <!--        <img class="imgblur" src="assets/images/events/special events 1.jpg" height="300" width="350" />-->
-  <!--      </div>-->
-  <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
-  <!--    </div>
-  <!--  </div>-->
-  <!--</div>-->
-  <div class="col-md-4">
-    <div class="service probootstrap-animate">
-      <!-- <div class="icon">
-      <img src="https://img.icons8.com/dusk/80/000000/new-product.png" class="svg" alt="Landscape Ventures">
-    </div> -->
-    <div class="text">
-      <div class="centerTitle">Product Launches</div>
-      <div class="textWithBlurredBg">
-        <h3>Product Launches</h3>
-        <p>First impressions are enduring. If you are launching any products, you will only get one chance to build a spontaneously powerful connection with your target audience.</p>
-        <img class="imgblur" src="assets/images/events/Product-Launch-Event-.jpg" height="300" width="350" />
-      </div>
-      <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="service probootstrap-animate">
-    <!-- <div class="icon">
-    <img src="https://img.icons8.com/officel/80/000000/video-conference.png" class="svg" alt="Landscape Ventures">
-  </div> -->
-  <div class="text">
-    <div class="centerTitle">Conferences & Webinars</div>
-    <div class="textWithBlurredBg">
-      <h3>Conferences & Webinars</h3>
-      <p>Successful conferences, forums and webinars need ultra-efficient organisation, perfect administration and study to detail. So the best facility is always preferred.</p>
-      <img class="imgblur" src="assets/images/events/conference-.png" height="300" width="350" />
-    </div>
-    <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
-  </div>
-</div>
-</div>
-<div class="col-md-4">
-  <div class="service probootstrap-animate">
-    <!-- <div class="icon">
-    <img src="https://img.icons8.com/dusk/80/000000/museum.png" class="svg" alt="Landscape Ventures">
-  </div> -->
-  <div class="text">
-    <div class="centerTitle">Government Events</div>
-    <div class="textWithBlurredBg">
-      <h3>Government Events</h3>
-      <p>Landscape Venturess has built an outstanding reputation for successfully planning and achieving complex, large-scale, multi-stakeholder Government conferences and business events.</p>
-      <img class="imgblur" src="assets/images/events/gov events.jpg" height="300" width="350" />
-    </div>
-    <br />
-    <!-- <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p> -->
-  </div>
-</div>
-</div>
-</div>
 </div>
 </section>
 
@@ -257,102 +225,78 @@ require __DIR__.'/assets/config/global.config.php';
     <div class="row">
       <div class="col-md-4">
         <div class="service ls-serv probootstrap-animate">
-          <!-- <div class="icon">
-          <img src="https://img.icons8.com/color/80/000000/park-concert-shell.png" class="svg" alt="Landscape Ventures">
-        </div> -->
-        <div class="text">
-          <div class="centerTitle">Venue</div>
-          <div class="textWithBlurredBg">
-            <h3>Venue</h3>
-            <img src="assets/images/Landscape-Intro.jpeg" height="300" width="350" />
-            <p>As the preferred space for high profile weddings, social fetes, conventions and corporate celebrations, this one-of-a-kind event venue has played on several occasions.</p>
-            <!--<p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>-->
+          <div class="text">
+            <div class="centerTitle">Venue</div>
+            <div class="textWithBlurredBg">
+              <h3>Venue</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/Landscape-Intro.jpeg');?>" height="300" width="350" />
+              <p>As the preferred space for high profile weddings, social fetes, conventions and corporate celebrations, this one-of-a-kind event venue has played on several occasions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service ls-serv probootstrap-animate">
+          <div class="text">
+            <div class="centerTitle">Video & Photo</div>
+            <div class="textWithBlurredBg">
+              <h3>Video & Photo</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/services/photography2.jpg');?>" height="300" width="350" />
+              <p>Specializing in creating Video & Photo masterpieces. We really listen to our client's needs and work with you the entire step of the way to ensure the best output.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service ls-serv probootstrap-animate">
+          <div class="text">
+            <div class="centerTitle">Make-up & Mehendi</div>
+            <div class="textWithBlurredBg">
+              <h3>Make-up & Mehendi</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/services/mehendi1.jpg');?>" height="300" width="350" />
+              <p>We understand each wedding is different and accordingly plan the bride’s overall appearance. Look like a star at your wedding with the exclusive make-up and mehndi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service ls-serv probootstrap-animate">
+          <div class="text">
+            <div class="centerTitle">DJ & Band</div>
+            <div class="textWithBlurredBg">
+              <h3>DJ & Band</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/services/DJ.jpg');?>" height="300" width="350" />
+              <p>We offer premium and professional wedding DJ services. No matter what your music style is, we'll find the right DJ & Band to stay in sync with your favourite tunes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service ls-serv probootstrap-animate">
+          <div class="text">
+            <div class="centerTitle">Decoration</div>
+            <div class="textWithBlurredBg">
+              <h3>Decoration</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/services/decoration2.jpg');?>" height="300" width="350" />
+              <p>Life is all about the little fleeting moments. With our decoration services, you can create some everlasting memories that you and your loved ones will remember forever.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service ls-serv probootstrap-animate">
+          <div class="text">
+            <div class="centerTitle">Catering</div>
+            <div class="textWithBlurredBg">
+              <h3>Catering</h3>
+              <img src="<?=ImageCompression($baseURI.'assets/images/services/catering2.jpg');?>" height="300" width="350" />
+              <p>With dedicated and handpicked culinary staff, we offer high-quality catering services in Bhubaneswar. We strive to provide authentic food to make the special blend.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="service ls-serv probootstrap-animate">
-        <!-- <div class="icon">
-        <img src="https://img.icons8.com/nolan/80/000000/video-conference.png" class="svg" alt="Landscape Ventures">
-      </div> -->
-      <div class="text">
-        <div class="centerTitle">Video & Photo</div>
-        <div class="textWithBlurredBg">
-          <h3>Video & Photo</h3>
-          <img src="assets/images/services/photography 2.jpg" height="300" width="350" />
-          <p>Specializing in creating Video & Photo masterpieces. We really listen to our client's needs and work with you the entire step of the way to ensure the best output.</p>
-          <!--<p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>-->
-        </div>
-      </div>
-    </div>
   </div>
-  <div class="col-md-4">
-    <div class="service ls-serv probootstrap-animate">
-      <!-- <div class="icon">
-      <img src="https://img.icons8.com/color/80/000000/bride.png" class="svg" alt="Landscape Ventures">
-    </div> -->
-    <div class="text">
-      <div class="centerTitle">Make-up & Mehendi</div>
-      <div class="textWithBlurredBg">
-        <h3>Make-up & Mehendi</h3>
-        <img src="assets/images/services/mehendi 1.jpg" height="300" width="350" />
-        <p>We understand each wedding is different and accordingly plan the bride’s overall appearance. Look like a star at your wedding with the exclusive make-up and mehndi.</p>
-        <!--<p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>-->
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="service ls-serv probootstrap-animate">
-    <!-- <div class="icon">
-    <img src="https://img.icons8.com/dusk/80/000000/dj.png" class="svg" alt="Landscape Ventures">
-  </div> -->
-  <div class="text">
-    <div class="centerTitle">DJ & Band</div>
-    <div class="textWithBlurredBg">
-      <h3>DJ & Band</h3>
-      <img src="assets/images/services/DJ .jpg" height="300" width="350" />
-      <p>We offer premium and professional wedding DJ services. No matter what your music style is, we'll find the right DJ & Band to stay in sync with your favourite tunes.</p>
-      <!--<p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>-->
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-md-4">
-  <div class="service ls-serv probootstrap-animate">
-    <!-- <div class="icon">
-    <img src="https://img.icons8.com/plasticine/80/000000/christmas-tree.png" class="svg" alt="Landscape Ventures">
-  </div> -->
-  <div class="text">
-    <div class="centerTitle">Decoration</div>
-    <div class="textWithBlurredBg">
-      <h3>Decoration</h3>
-      <img src="assets/images/services/decoration 2.jpg" height="300" width="350" />
-      <p>Life is all about the little fleeting moments. With our decoration services, you can create some everlasting memories that you and your loved ones will remember forever.</p>
-      <!--<p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>-->
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-md-4">
-  <div class="service ls-serv probootstrap-animate">
-    <!-- <div class="icon">
-    <img src="https://img.icons8.com/color/80/000000/tableware.png" class="svg" alt="Landscape Ventures">
-  </div> -->
-  <div class="text">
-    <div class="centerTitle">Catering</div>
-    <div class="textWithBlurredBg">
-      <h3>Catering</h3>
-      <img src="assets/images/services/catering 2.jpg" height="300" width="350" />
-      <p>With dedicated and handpicked culinary staff, we offer high-quality catering services in Bhubaneswar. We strive to provide authentic food to make the special blend.</p>
-      <p><a href="#" class="link-with-icon">Explore More <i class=" icon-chevron-right"></i></a></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
 </section>
 
 <!-- Facts Section -->
@@ -378,65 +322,6 @@ require __DIR__.'/assets/config/global.config.php';
   </div>
 </div>
 
-<!--<section class="probootstrap-section probootstrap-section-dark">
-<div class="container">
-<div class="row mb30">
-<div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center">
-<h2>Best Venue, Affordable Price</h2>
-<p class="lead">We strive to be the best venue provider in the city since decades, aiming to build an <strong>Aesthetic Experience</strong>.</p>
-<p><img src="assets/images/curve.svg" class="svg" alt="Landscape Ventures"></p>
-</div>
-</div>
-<div class="row probootstrap-gutter10">
-<div class="col-md-6">
-<div class="probootstrap-block-image-text">
-<figure>
-<a href="assets/images/Landscape-Main-View.jpeg" class="image-popup">
-<img src="assets/images/Landscape-Main-View.jpeg" alt="Landscape Ventures" class="img-responsive">
-</a>
-<!-- <div class="actions">
-<a href="https://vimeo.com/45830194" class="popup-vimeo"><i class="icon-play2"></i></a>
-</div>
-</figure>
-<div class="text">
-<h3><a href="#">Grand Banquet Hall</a></h3>
-<div class="post-meta">
-<ul>
-<li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-<li><i class="icon-user2"></i> 50 Guests</li>
-</ul>
-</div>
-<p>Book the best venue in town</p>
-<p><a href="#" class="btn btn-primary">Book now </a></p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="probootstrap-block-image-text">
-<figure>
-<a href="assets/images/Landscape-Side.jpeg" class="image-popup">
-<img src="assets/images/Landscape-Side.jpeg" alt="Landscape Ventures" class="img-responsive">
-</a>
-<!-- <div class="actions">
-<a href="https://vimeo.com/45830194" class="popup-vimeo"><i class="icon-play2"></i></a>
-</div>
-</figure>
-<div class="text">
-<h3><a href="#">Awful Environment</a></h3>
-<div class="post-meta">
-<ul>
-<li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
-<li><i class="icon-user2"></i> 100 Guests</li>
-</ul>
-</div>
-<p>Book the best venue in town</p>
-<p><a href="#" class="btn btn-primary">Book now</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section> -->
 <section class="probootstrap-section">
   <div class="container">
     <div class="row">
@@ -456,7 +341,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -471,7 +355,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -486,7 +369,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -501,7 +383,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -531,7 +412,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -546,7 +426,6 @@ require __DIR__.'/assets/config/global.config.php';
               <a href="assets/images/Landscape-Office.jpeg"><img src="assets/images/Landscape-Office.jpeg" alt="Landscape Ventures" class="img-responsive image-popup"></a>
               <div class="text">
                 <h3>Classic Venue</h3>
-                <!--<p>Starting from <strong>₹2900.00/Night</strong></p>-->
                 <div class="post-meta">
                   <ul>
                     <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
@@ -563,10 +442,10 @@ require __DIR__.'/assets/config/global.config.php';
   </div>
 </section>
 <section class="probootstrap-half">
-  <div class="image" style="background-image: url(https://www.weddingdoers.com/wiki/assets/admin/imgs/upload/article/Pleasant_Tips_for_Selecting_a_Marriage_Venue.jpg);"></div>
+  <div class="image" style="background-image: url(<?=ImageCompression($baseURI.'https://www.weddingdoers.com/wiki/assets/admin/imgs/upload/article/Pleasant_Tips_for_Selecting_a_Marriage_Venue.jpg');?>);"></div>
   <div class="text">
     <div class="probootstrap-animate fadeInUp probootstrap-animated">
-      <h2 class="mt0">Landscape Mandap : Best Venue Provider</h2>
+      <h2 class="mt0">Landscape Banquet Hall : Best Venue Provider</h2>
       <p><img src="assets/images/curve_white.svg" class="seperator" alt="Landscape Ventures"></p>
       <div class="row">
         <div class="col-md-6">
@@ -593,9 +472,7 @@ include 'assets/templates/template-scripts.php';
 
 </body>
 </html>
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-Open modal
-</button> -->
+
 <!-- The Modal -->
 <div class="modal fade" id="myModal">
   <div class="modal-dialog">
@@ -640,10 +517,3 @@ Open modal
     </div>
   </div>
 </div>
-<!-- <div class="item">
-<a href="#"><img src="image.gif" alt="title" title="" width="125" height="125"/></a>
-<div class="caption">
-<a href="">Title</a>
-<p>Description</p>
-</div>
-</div> -->

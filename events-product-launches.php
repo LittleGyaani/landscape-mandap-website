@@ -7,7 +7,7 @@ require __DIR__.'/assets/config/global.config.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Landscape Mandap - Luxury of your Event | Gala and Award Events</title>
+  <title>Landscape Mandap - Luxury of your Event | Product Launch Events</title>
   <?php
   //Include Meta Section
   include 'assets/templates/template-meta.php';
@@ -31,14 +31,14 @@ require __DIR__.'/assets/config/global.config.php';
     ?>
     <section class="probootstrap-slider flexslider probootstrap-inner">
       <ul class="slides">
-        <li style="background-image: url(assets/images/events_landing.jpg);" class="overlay">
+        <li style="background-image: url(assets/images/event-product-launch.jpg);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
                   <p><img src="assets/images/curve_white.svg" class="seperator probootstrap-animate" alt="Landscape Ventures"></p>
-                  <h1 class="probootstrap-heading probootstrap-animate">Events Organized by Landscape</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">360-degree wedding planning and execution.</div>
+                  <h1 class="probootstrap-heading probootstrap-animate">Product Launches Events</h1>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">We comprehend the importance of the product launch.</div>
                 </div>
               </div>
             </div>
@@ -56,58 +56,117 @@ require __DIR__.'/assets/config/global.config.php';
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <p>Services for a wedding that will not only memorize by you but by your guest too. With our Wedding Event Management Services, we cater all the needs of clients coming from across different pockets of the country.</p>
+        <div class="col-md-4">
+          <p>
+            <img src="assets/images/events-product-launch-1.png"  height="300" width="350"/>
+          </div>
+          <div class="col-md-8">
+            <h3>Launch of any product need not be only in the form of advertisements. They can be introduced to the commercial world through small or big launch parties or conferences or press meets.</h3>
+          </div>
         </div>
-        <div class="col-md-6">
-          <p>We innovate your wedding in staging enchanting design in different segments like venue decoration, stage decoration, pathway, mandap decoration, buffet stall, light decoration, flower decoration, fibre decoration and other decorative designs as chosen by our esteemed clients. All these decorative blends are beautifully touched by our designers.</p>
-        </div>
-        <div class="col-md-6">
-          <p>Today, we are counted as a reliable Wedding Event Management Planner in Eastern India.</p>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-md-4" style="float:right;">
+            <br />
+            <p>
+              <img src="assets/images/events-product-launch-2.jpg"  height="300" width="350"/>
+            </div>
+            <br />
+            <br />
+            <div class="col-md-8">
+              <h3>We know how to efficiently manage your requirements to keep the focus on the message of your product and bringing it to life with our technical know-how and creative styling. Count on us to launch your product with aplomb and create the greatest impact possible.</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <p>
+                <img src="assets/images/events-product-launch-3.png"  height="300" width="350"/>
+              </div>
+              <br />
+              <br />
+              <div class="col-md-8">
+                <h3>We aim to deliver a well-organized and successful conference that adds value to your overall objectives.</h3>
+              </div>
+            </div>
     </div>
   </section>
-  <section class="probootstrap-section probootstrap-section-dark">
+
+  <section class="probootstrap-section">
     <div class="container">
+      <div class="row mb30">
+        <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center probootstrap-animate">
+          <h2>Explore our Services</h2>
+          <p class="lead">Your desire is our passion, and our passion is our work. We as a established venture and with lots of experience ready to create the best memorable event of your life.</p>
+          <p><img src="assets/images/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="mt0">Why Choose Us?</h2>
-          <p class="mb50"><img src="assets/images/curve.svg" class="svg" alt="Landscape Ventures"></p>
-        </div>
         <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
+          <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <i class="icon-check"></i>
+              <img src="https://img.icons8.com/color/80/000000/park-concert-shell.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
             </div>
             <div class="text">
-              <h3>Creative event organizers</h3>
-              <p>Currently stands amongst the top service providing companies in the state, known for its innovation and creating industry benchmarks, Landscape Ventures has a bunch of goodwill to its credit.</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
+              <h3>Venue</h3>
+              <p>As the preferred space for high profile weddings, social fetes, conventions and corporate celebrations, this one-of-a-kind event venue has played on several occasions.</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
+          <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <i class="icon-check"></i>
+              <img src="https://img.icons8.com/nolan/80/000000/video-conference.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
             </div>
             <div class="text">
-              <h3>Professional & Team Qualified</h3>
-              <p>Our team of qualified professionals brimming with zeal to make an event of yours an extravagant affair to remember for an entire era. We put enchantment for all the services we provide to our clients as we have an uncanny ability to convert ideas to things, and eventually a reality, which is the backbone to success!</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
+              <h3>Video & Photo</h3>
+              <p>Specializing in creating Video & Photo masterpieces. We really listen to our client's needs and work with you the entire step of the way to ensure the best output.</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="service left-icon left-icon-sm probootstrap-animate">
+          <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <i class="icon-check"></i>
+              <img src="https://img.icons8.com/color/80/000000/bride.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
             </div>
             <div class="text">
-              <h3>Entertainment Solution Providers</h3>
-              <p>We are a complete entertainment solution provider and an Event Planner for all your event needs. No matter what size your event may be, we will organize your complete event down to every last-minute detail.</p>
-              <!-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> -->
+              <h3>Make-up & Mehendi</h3>
+              <p>We understand each wedding is different and accordingly plan the bride’s overall appearance. Look like a star at your wedding with the exclusive make-up and mehndi.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <img src="https://img.icons8.com/dusk/80/000000/dj.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+            </div>
+            <div class="text">
+              <h3>DJ & Band</h3>
+              <p>We offer premium and professional wedding DJ services. No matter what your music style is, we'll find the right DJ & Band to stay in sync with your favourite tunes.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <img src="https://img.icons8.com/plasticine/80/000000/christmas-tree.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+            </div>
+            <div class="text">
+              <h3>Decoration</h3>
+              <p>Life is all about the little fleeting moments. With our decoration services, you can create some everlasting memories that you and your loved ones will remember forever.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <img src="https://img.icons8.com/color/80/000000/tableware.png" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+            </div>
+            <div class="text">
+              <h3>Catering</h3>
+              <p>With dedicated and handpicked culinary staff, we offer high-quality catering services in Bhubaneswar. We strive to provide authentic food to make the special blend.</p>
             </div>
           </div>
         </div>
@@ -116,23 +175,23 @@ require __DIR__.'/assets/config/global.config.php';
   </section>
 
   <section class="probootstrap-half">
-    <div class="image" style="background-image: url(assets/images/slider_2.jpg);"></div>
-    <div class="text">
+    <div class="image" style="background-image: url(assets/images/product-launch-half.jpg);"></div>
+    <div class="text" style="background: #647fe8 !important;">
       <div class="probootstrap-animate fadeInUp probootstrap-animated">
-        <h2 class="mt0">Best 5 Star hotel</h2>
+        <h2 class="mt0">Plan Product Launch With Less Stress</h2>
         <p><img src="assets/images/curve_white.svg" class="seperator" alt="Landscape Ventures"></p>
         <div class="row">
           <div class="col-md-6">
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>A product launch is a moment in time when you put your offer “your product or service” in front of an audience of prospective buyers. It is more than inviting a VIP, few guests and the media to a gathering, they are great opportunities to wow the market and create a remarkable impression about your brand, product or service. <b>Landscape Ventures</b> has more than a decade’s experience and expertise to plan product launches.</p>
           </div>
           <div class="col-md-6">
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p>We can carefully plan the agenda, venue co-ordination, and ensure that all technological / AV aspects are taken care of with extreme efficiency. In coordination with your marketing team, we you can turn your product launch into something worth talking about.</p>
           </div>
         </div>
-        <p><a href="#" class="link-with-icon white">Learn More <i class=" icon-chevron-right"></i></a></p>
       </div>
     </div>
   </section>
+
   <?php
   //Include Footer Section
   include 'assets/templates/template-footer.php';
